@@ -1,0 +1,94 @@
+.container {
+    height: 100vh;
+    background: #C8E9F0;
+    position: relative;
+}
+
+
+.headerBackground {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-inline: 42px;
+    padding-block: 50px;
+}
+
+
+.logoHolder {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.logoHolder>p {
+    color: #2D3385;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.navMenuHolder {
+    display: flex;
+    list-style-type: none;
+    gap: 37px;
+    min-width: fit-content;
+}
+
+
+
+
+
+
+.headerTitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112px;
+    font-size: 1em;
+    letter-spacing: 0.015em;
+    width: 40%;
+    padding: 0.8em;
+    color: #000000;
+    position: relative;
+}
+
+.headerMain {
+    font-size: 96px;
+
+}
+
+.headerTitle>span {
+    color: #2D3385;
+}
+
+.headerTitle::after {
+    content: url("/assets/headerSnow.png");
+    position: absolute;
+    bottom: 0.9em;
+}
+
+.headerContent {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.7%;
+    margin-left: 4.5em;
+    font-size: 0.2em;
+    letter-spacing: 0.035em;
+    width: 60%;
+
+}
+
+.logoBackground {
+    position: absolute;
+    bottom: 0;
+    left: 2em;
+}
