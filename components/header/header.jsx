@@ -31,7 +31,7 @@ export default function HeaderComponent() {
 
             <img className={styles.logoBackground} src="/assets/googledevlogo.png" alt="" srcset="" />
 
-
+            <img className={styles.registerNow} src="/assets/headerRegister.png" alt="" />
 
 
         </div>

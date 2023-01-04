@@ -92,3 +92,21 @@
     bottom: 0;
     left: 2em;
 }
+
+.registerNow {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    animation: rotateAnimation 10s linear 0s infinite forwards;
+}
+
+
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
