@@ -11,9 +11,9 @@ export default function HeaderComponent() {
 
             <nav className={styles.navbar}>
                 <div className={styles.logoHolder}>
-                    <img src="/assets/headerArrow.png" alt="" srcset="" />
+                    <img src="/assets/headerArrow.png" alt=""  />
                     <p>Winterlude/</p>
-                    <img style={{ transform: "rotateY(180deg)" }} src="/assets/headerArrow.png" alt="" srcset="" />
+                    <img style={{ transform: "rotateY(180deg)" }} src="/assets/headerArrow.png" alt=""  />
 
                 </div>
                 <ul className={styles.navMenuHolder}>
@@ -29,7 +29,7 @@ export default function HeaderComponent() {
                 <p className={styles.headerContent}>We plan to help like-minded people connect, interact and learn, by exposing them to all things' technology through our amazing speaker lineup and activities.</p>
             </div>
 
-            <img className={styles.logoBackground} src="/assets/googledevlogo.png" alt="" srcset="" />
+            <img className={styles.logoBackground} src="/assets/googledevlogo.png" alt=""  />
 
             <img className={styles.registerNow} src="/assets/headerRegister.png" alt="" />
 
