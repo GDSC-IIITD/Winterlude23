@@ -112,3 +112,10 @@
         gap: 3em;
     }
 }
+
+@media (min-width: 601px) and (max-width: 1180px){
+    .bodyr>figure>img{
+        width: auto;
+        padding-right: 20%;
+    }
+}
