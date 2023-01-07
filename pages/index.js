@@ -6,8 +6,8 @@ import HeaderComponent from '../components/header/header'
 export default function Main() {
   return (
     <div>
-      <CommunityComponent />
       <HeaderComponent />
+      <CommunityComponent />
 
       <FooterComponent />
     </div>
