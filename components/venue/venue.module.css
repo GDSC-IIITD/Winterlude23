@@ -1,0 +1,49 @@
+
+.container{
+    display: flex;
+    background-image: url("/assets/footerbackgroundobjects.png");
+    height: 100vh;
+}
+
+.venl, .venr{
+    flex: 1;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    margin-top: 30%;
+    align-items: center;
+}
+
+.black{
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.015em;
+}
+.blue{
+    color: #2E3286;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.015em;
+}
+
+.sub>h4{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.venr{
+    align-items: right;
+}
+.venr>figure>img{
+    width: 40%;
+    margin-top: 12%;
+    margin-left: 30%;
+}
+
