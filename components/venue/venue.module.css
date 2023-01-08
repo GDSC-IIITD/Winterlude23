@@ -47,3 +47,16 @@
     margin-left: 30%;
 }
 
+/* ---------------mobile-view---------- */
+
+@media screen and (max-width: 600px){
+    .container{
+        height: 200vh;
+        flex-direction: column;
+    }
+    .venr>figure>img{
+        width: 100%;
+        margin-left: 20%;
+        margin-bottom: 20%;
+    }
+}
