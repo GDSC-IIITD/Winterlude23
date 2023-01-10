@@ -1,6 +1,17 @@
 import React from 'react'
 import Bar from './Bar'
 import data from '../data/social.json'
+import {
+     motion,
+     useScroll,
+     useSpring,
+     useTransform,
+     MotionValue
+   } from "framer-motion";
+
+function useParallax(value, distance) {
+     return useTransform(value, [0, 1], [-distance, distance]);
+}
 
 function Social() {
   return (

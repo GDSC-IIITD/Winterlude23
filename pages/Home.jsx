@@ -4,6 +4,7 @@ import About from '../components/About'
 import Social from '../components/Social'
 import Venue from '../components/Venue'
 import Footer from '../components/Footer'
+
 function Home() {
     const ring = useRef(null)
     const arrow = useRef(null)
@@ -27,7 +28,7 @@ function Home() {
             <img src='ring.svg'  className="absolute ring-animated w-[10rem] h-[10rem]"  alt='GDSC'/>
             <img src='arrow.svg' alt='GDSC'/>
         </div>
-        <div className="w-screen h-screen flex flex-col overflow-x-hidden items-center" ref={body}>
+        <div className="w-screen h-screen flex flex-col  items-center body" ref={body}>
             <Hero/>
             <About/>
             <Social/>
