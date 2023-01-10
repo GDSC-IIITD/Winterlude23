@@ -1,20 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
-  font-family: 'Inter';
-
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
 
-.centerThis {
-  display: flex;
-  justify-content: center;
+.body {
+  cursor: none !important;
+}
+
+.ring {
+  transition: all 2ms ease-in-out;
+  position: fixed;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+  left: -100px;
+  top: 50%;
+  z-index: 10000;
+  height: 200px;
+  width: 200px;   
+  
+}
+
+.ring-animated{ 
+  animation: rotateAnimation 10s linear 0s infinite forwards;
+}
+
+@media screen and (max-width: 800px) {
+  .body{
+      cursor: default;
+  }
+  .ring{
+    display: none;
+  }
+}
+
+@keyframes rotateAnimation {
+  0% {
+      transform: rotateZ(0deg);
+  }
+
+  100% {
+      transform: rotateZ(360deg);
+  }
 }

@@ -1,0 +1,38 @@
+[
+    {
+        "icon": "students.png",
+        "title": "9000+",
+        "description":"Students Influenced",
+        "alignment":"start"
+    },
+    {
+        "icon": "bootcamp.png",
+        "title": "400+ ",
+        "description":"Bootcamp Pariticipants",
+        "alignment":"end"
+    },
+    {
+        "icon": "attendes.png",
+        "title": "700+",
+        "description":"Attendes",
+        "alignment":"start"
+    },
+    {
+        "icon": "talk.png",
+        "title": "7+",
+        "description":"Speakers",
+        "alignment":"start"
+    },
+    {
+        "icon": "compose.png",
+        "title": "170+ ",
+        "description":"Compose Camp Pariticipants",
+        "alignment":"end"
+    },
+    {
+        "icon": "perks.png",
+        "title": "Many ",
+        "description":"Other Perks",
+        "alignment":"start"
+    }
+]
