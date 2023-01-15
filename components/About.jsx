@@ -15,11 +15,15 @@ function About() {
   return (
     <div className={' w-full relative z-10' }>
             <NavBar/>
-            <div className='h-[100vh] w-full bg-transparent'></div>
+            <div className='h-[85vh] w-full bg-transparent'></div>
             <div className='bg-[white] w-full flex flex-col relative'>
-                <motion.div className={'h-screen sticky top-0 justify-center p-20 flex flex-col font-google font-light text-lg text-[#454545]'} style={{opacity:prog}}>
-                    <p>Get To Know Us</p>
-                    <h1 className='text-9xl font-roboto text-[black] font-[400]'>Our Community . GDSC</h1>
+            <p className='font-google font-light text-sm text-[#454545] pl-[8vmax] pt-[5vmax]'>Get To Know Us</p>
+                <motion.div className={'h-screen sticky top-0 justify-center pl-[8vmax] flex flex-col font-google font-light text-lg text-[#454545]'} style={{opacity:prog}}>
+                    <h1 className='text-9xl font-roboto text-[black] font-[400]'>GDSC. Our Community 
+                        <span className="heart">
+                        . 💙
+                        </span>
+                    </h1>
                     <p className='mt-20 text-xl'>Google Developer Student Clubs (GDSC) are <br/> university-based tech community groups.</p>
                 </motion.div>
                 <div className={'flex justify-between p-20'}>

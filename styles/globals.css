@@ -4,27 +4,30 @@
 @tailwind components;
 @tailwind utilities;
 
-.body {
-  cursor: none !important;
+
+.body{
+  scroll-behavior:smooth
 }
+
 
 .ring {
   transition: all 2ms ease-in-out;
-  position: fixed;
-  transform: translateX(-50%) translateY(-50%);
-  pointer-events: none;
-  left: -100px;
+  position: absolute;
+  right: 5%;
   top: 50%;
   z-index: 10000;
   height: 200px;
   width: 200px;   
-  
+  box-shadow: none;
 }
 
 .ring-animated{ 
   animation: rotateAnimation 10s linear 0s infinite forwards;
 }
 
+.ring-animated:hover{
+  animation-play-state: paused;
+}
 @media screen and (max-width: 800px) {
   .body{
       cursor: default;

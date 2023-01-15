@@ -10,7 +10,7 @@ function NavBar() {
   console.log(location)
   return (
     <>
-  <nav className="w-full bg-[#C8E9F0]  large:hidden z-40 absolute">
+  <nav className="w-screen bg-[#C8E9F0]  large:hidden z-40 absolute">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 z-50">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -84,7 +84,7 @@ function NavBar() {
         <span className="block w-7 h-1 bg-textMain z-40"></span>
       </div>
       <Link href='/' className='w-1/3 ml-[2vmax] small:w-10/12 small:ml-[4vmax] small:hidden'><img src='logo.svg' alt='logo'/></Link>
-      <div className="flex w-1/4 justify-between small:hidden mr-[2.5vmax] text-[1.3vmax] font-google">
+      <div className="flex w-1/4 justify-end gap-10 small:hidden mr-[2.5vmax] text-[.85vmax] font-[500] font-google">
         <Link className={location == '/' ? "text-googleBlue" : "hover:text-googleBlue"}  href='/'>Home</Link>
         <Link className={location === '/team' ? "text-googleBlue" : "hover:text-googleBlue"}  href='/team'>Team</Link>
         <Link className={location === '/sponsors' ? "text-googleBlue" : "hover:text-googleBlue"}  href='/sponsors'>Sponsors</Link>
