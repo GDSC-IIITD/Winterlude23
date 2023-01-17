@@ -12,12 +12,12 @@ import {
 function Social() {
 
      const { scrollY } = useScroll();     
-     const y1 = useTransform(scrollY, [300, 600], [300, 200]);
-     const y2 = useTransform(scrollY, [270, 600], [-300, -600]);
+     const y1 = useTransform(scrollY, [0, 300], [0, 200]);
+     const y2 = useTransform(scrollY, [0, 300], [0, 200]);
 
 
   return (
-    <div className="flex h-[2] justify-between p-20 relative z-10 bg-[white] w-full items">
+    <div className="flex h-[200vh] justify-between p-20 relative z-10 bg-[white] w-full items">
         <motion.div className="flex flex-col w-[18%]" style={{y:y1}}>
             <Bar icon={data[0].icon} 
                  title={data[0].title} 
