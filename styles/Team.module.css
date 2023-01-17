@@ -4,6 +4,7 @@
     overflow: hidden;
     display: grid;
     grid-template-rows: 3fr 7fr;
+    transition: all 0.8s;
 
 }
 
@@ -11,6 +12,7 @@
 .container > h1 {
     padding-left: 5rem;
     height: 100%;
+    transition: all 0.5s;
 
 }
 
@@ -21,6 +23,8 @@
 
 
 }
+
+
 
 
 .flexCardsScroll {
