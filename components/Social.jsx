@@ -11,9 +11,10 @@ import {
 
 function Social() {
 
-     const { scrollY } = useScroll();     
-     const y1 = useTransform(scrollY, [0, 300], [0, 200]);
-     const y2 = useTransform(scrollY, [0, 300], [0, 200]);
+     const { scrollY } = useScroll();   
+
+     const y1 = useTransform(scrollY, [0, 500], [0, 200]);
+     const y2 = useTransform(scrollY, [0, 500], [0, -200]);
 
 
   return (

@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 function Home() {
   return (
-    <div className="w-full  flex flex-col  items-center body" >
+    <div className="w-screen flex flex-col  items-center " >
         <Hero  />
         <About  />
         <Social  />
