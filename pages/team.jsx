@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import NavBar from '../components/Navbar';
 import styles from "../styles/Team.module.css";
-function Team() {
+function Team({props}) {
 
 
 
@@ -112,5 +112,14 @@ function Team() {
     </>
   )
 }
+
+
+export async function getServerSideProps(context) {
+      return {
+        props: {}
+      }
+
+}
+
 
 export default Team
