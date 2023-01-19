@@ -4,7 +4,7 @@
     background: linear-gradient(
     to top,
     rgb(248, 248, 248) 0%,
-    #ddeeef 50%,
+    #b7e9ec 50%,
     #ddeeef 50%,
     rgb(255, 255, 255) 100%
   );
@@ -27,8 +27,14 @@
 
 .disc_container{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 5rem;
     padding-top: 2%;
+}
+
+.disc_container1{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .disc{

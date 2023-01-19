@@ -12,11 +12,17 @@ function Sponsors() {
       </div>
       <div className={styles.content}>
         <div className={styles.disc_container}>
+          <div className={styles.disc_container1}>
           <div className={styles.disc}></div>
           <div className={styles.disc}></div>
           <div className={styles.disc}></div>
           <div className={styles.disc}></div>
           <div className={styles.disc}></div>
+          </div>
+          <div className={styles.disc_container1}>
+          <div className={styles.disc}></div>
+          <div className={styles.disc}></div>
+          </div>
         </div>
       </div>
       
